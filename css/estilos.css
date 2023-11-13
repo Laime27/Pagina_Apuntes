@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:rgb(32, 33, 36) !important;
+}
+
+.botonlista{   
+    border: solid 3px rgba(141, 139, 139, 0.566) !important;
+    border-radius: 12px !important;
+}
+
+.modal-content{
+    background-color: rgb(32, 33, 36)!important;
+    color: rgba(255, 255, 255, 0.958) !important;
+}
+
+.modal-title{
+    position: relative;
+    left: 35%;
+}
+.modal-body{
+    display: flex;
+    justify-content: center;
+
+}
+
+textarea{
+    resize: none !important;
+
+}
+
+.card-body, .card-header:first-child {
+    background-color: rgb(254, 245, 193);
+    color: rgb(41, 40, 40);    
+}
+
+
+
+.card-header h4{
+    font-size: 1.2rem;
+}
+
+.card-body h5{
+    font-size: 1rem;
+   
+}
+
+.links-container{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 1rem;
+   
+}
+
+.boton-eliminar { 
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    border: none;
+    background-color: transparent;
+    
+}
+
+
+.card:hover .boton-eliminar {
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover .card-header,
+.card:hover .card-body {
+  
+    background-color: rgb(239, 220, 112);
+}
+
+.icono-eliminar{
+    color: #000;
+}
+
+.editar-contenedor{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.958);
+}
+
+.form-control{
+    border-radius: 10px !important; 
+}   
+
+.fondo-text{
+    background-color: rgb(254, 245, 193) !important;
+   
+}
+
